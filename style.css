@@ -28,7 +28,7 @@ nav .onglets a{
     text-decoration: none;
     color: #0000FF;
     margin-right: 10px;
-    border-bottom: 1px solid #0000F;
+    border-bottom: 1px solid #000;
     padding-bottom: 5px;
 }
 
@@ -46,16 +46,16 @@ header h1{
     font-size: 70px;
 }
 header h4{
-    margin-top: -40px;
-    font-size: 20px;
+    margin-top: 10px;
+    font-size: 40px;
     text-align: center;
     border-bottom: 1px solid #fff;
 }
 header button{
-    padding: 5x 10px;
-    background-color: #FF00FF;
+    padding: 20px 40px;
+    background-color: #fff;
     color:#FFD700;
-    border:
+    border:NONE;
     margin-bottom: 30px;
     outline:none;
     font-size: 20px;
@@ -73,19 +73,20 @@ header button{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom:30px;
+    margin-bottom:10px;
 }
 .main .content .card .left{
    flex: 0 0 30%;
    padding: 20px;
-   background-color:black;
-   color:#FFD700;
+   background-color:gold;
+   color:#000;
 }
 .main .content .card .right img{
     height:300px;
     width: 400px;
     margin-top: 5px;
 }
+
 footer{
     margin-top: 40px;
     border-top: 5px solid #6f6f6f;
@@ -133,51 +134,4 @@ footer #contact{
     footer{
         padding: 30px;
     }
-}
-
-
-
-}
-textarea {
-  height: 120px;
-}
-button {
-  font-size: 1.5em;
-  background-color: #FFFAE1;
-}
-button:hover {
-  background-color: #e55039;
-  color: #FFFAE1;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-#deuxiemeTrait {
-  height: 1px;
-  width: 75%;
-  background-color: #FFFAE1;
-  margin: 60px auto;
-}
-#copyrightEtIcons {
-  display: flex;
-  margin-bottom: 20px;
-  padding: 0 10%;
-}
-#copyright {
-  width: 50%;
-  text-align: left;
-  color: #FFFAE1;
-}
-#icons {
-  width: 50%;
-  text-align: right;
-}
-#icons a {
-  display: inline-block;
-  padding: 0 15px;
-  font-size: 1.3em;
-  color: #FFFAE1;
-}
-#icons a:hover {
-  transform: scale(1.5);
-  transition: 0.1s;
 }
